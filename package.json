@@ -4,6 +4,7 @@
   "homepage": "https://bohdanovmikhail.github.io/hillel.pro-2022.08-final/",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.0.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
