@@ -1,9 +1,10 @@
+/* eslint-disable */ 
 import { createBrowserRouter, createHashRouter } from 'react-router-dom';
-
 import { Root } from '@views/Root';
 import { ChatList, ChatRoom } from '@views/chat';
 import { AuthSignIn, AuthSignUp, AuthForgot } from '@views/auth';
 import { UserProfile } from '@views/user';
+
 
 const createRouter = process.env.ENV === 'gh-pages' ? createHashRouter : createBrowserRouter;
 

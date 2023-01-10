@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import { Link } from '@mui/material';
 
 export function ChatList() {
@@ -13,6 +14,9 @@ export function ChatList() {
         </li>
         <li>
           <Link href="/signup">To SignUp</Link>
+        </li>
+        <li>
+          <Link href="/chat">To Chat</Link>
         </li>
       </ul>
     </div>
